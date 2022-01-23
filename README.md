@@ -44,6 +44,7 @@ Publish the website in the given URL.
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/1.png" type="image/x-icon" />
     <title>Paint Application</title>
     <style>
       * {
@@ -108,11 +109,9 @@ Publish the website in the given URL.
     ctx.beginPath();
     if (shape == 0) {
       ctx.arc (e.offsetX, e.offsetY, 30, 0, 2 * Math.PI);
-      ctx.strokeStyle = "#0000FF";
       ctx.linewidth = 3;
     } else if (shape == 1) {
       ctx. rect(e.offsetX, e.offsetY, 50, 50);
-      ctx.strokeStyle = "#FF0000";
       ctx.linewidth = 3;
     } 
     if (shape == 2){
@@ -120,7 +119,6 @@ Publish the website in the given URL.
       ctx.lineTo(e.offsetX, e.offsetY, 500, 40);
     }else if (shape == 3) {
       ctx. rect(e.offsetX, e.offsetY, 100, 50);
-      ctx.strokeStyle = "#FF0000";
       ctx.linewidth = 3;
     }
     if (shape == 4){
@@ -248,9 +246,9 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 
-![output](.//output2.png)
-
 ![output](.//output1.png)
+
+![output](.//output2.png)
 
 ## Result:
 
