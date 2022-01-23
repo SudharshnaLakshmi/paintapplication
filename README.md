@@ -248,9 +248,9 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 
-![output](.//output1.png)
-
 ![output](.//output2.png)
+
+![output](.//output1.png)
 
 ## Result:
 
